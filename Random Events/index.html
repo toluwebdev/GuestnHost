@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#F5EBE9] w-full overflow-x-hidden">
+    <div class="grid grid-cols-1 overflow-hidden w-full md:grid-cols-4" id="welcome">
+      <div
+        class="col-span-1 overflow-hidden bg-[#F5EBE9] relative pt-[120px] max-md:pt-0 w-[100%]"
+      >
+        <div
+          class="absolute bottom-0 flex flex-col gap-5 justify-center items-center max-md:hidden left-0 mb-10 ml-10"
+        >
+          <div class="h-[300px] ml-2 w-[0.5px] bg-black"></div>
+
+          <p
+            class="text-2xl overflow-x-auto whitespace-nowrap max-md:[writing-mode:vertical-rl] font-bold text-[#02024D] [writing-mode:vertical-lr] [transform:rotate(180deg)] p-0"
+          >
+            We Will Build a Better Future
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="bg-cover min-h-[800px] max-md:w-full bg-norepeat col-span-1 md:col-span-3 flex flex-col justify-end"
+        style="
+          background-image: url(assets/img/1.png);
+          background-attachment: fixed;
+          background-position: top left;
+        "
+      >
+        <h1
+          class="text-7xl max-md:text-5xl max-[400px]:text-4xl ml-0 mb-20 max-md:w-full max-md:ml-5 text-[#ff7c51] tracking-[6px] pl-10 max-sm:pl-2 md:tracking-[3px] font-bold max-w-[500px]"
+        >
+          <span class="text-xl max-md:text-lg max-sm:text-sm">CA Workers Party Presents:</span>
+          <p class="p-0">Fundraiser for Simone Staley</p>
+        </h1>
+        <div
+          class="w-[70%] ml-[30%] max-lg:ml-[10%] max-lg:w-[90%] max-md:ml-0 max-md:w-[100%] h-[200px] max-md:h-[300px] grid md:grid-cols-3 grid-cols-1"
+        >
+          <div class="flex justify-center px-10 flex-col bg-[#F5EBE9]">
+            <p class="text-[#02024D] p-0 mb-3 text-xl">Where</p>
+            <p class="text-[#02024D] p-0 text-2xl font-bold">Nob Hill Plaza</p>
+          </div>
+          <div class="flex justify-center px-10 flex-col bg-[#F5EBE9]">
+            <p class="text-[#02024D] p-0 text-xl">When</p>
+            <p class="text-[#02024D] p-0 text-2xl font-bold">
+              July 31, 2035 6-9pm
+            </p>
+          </div>
+          <a
+            href=""
+            class="bg-[#ff7c51] hover:underline flex justify-center items-center text-white text-xl font-bold"
+          >
+            <h1>RSVP</h1>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="px-5 pt-[200px] pb-[100px] max-md:w-full max-w-[1000px] gap-10 grid grid-cols-1 md:grid-cols-2 mx-auto"
+    >
+      <p
+        class="text-3xl font-bold p-0 capitalize max-w-[450px] max-md:w-full text-[#02024D]"
+      >
+        Join Us for an Evening Supporting Our Next Community Leader
+      </p>
+      <div>
+        <p
+          class="max-w-[500px] p-0 max-md:w-full min-h-700px text-[18px] text-[#02024D] leading-[1.7] font-light"
+        >
+          I'm a paragraph. Click here to add your own text and edit me. It’s
+          easy. Just click “Edit Text” or double click me to add your own
+          content and make changes to the font. I’m a great place for you to
+          tell a story and let your users know a little more about you.
+        </p>
+        <button class="p-2 inline-block mt-5 border text-[#02024D] border-[#02024D]">
+          Request Invite
+        </button>
+      </div>
+    </div>
+    <div
+      class="px-5 pb-[200px] max-md:w-full max-w-[1000px] gap-10 grid grid-cols-1 md:grid-cols-2 mx-auto"
+    >
+      <h1
+        class="text-3xl font-bold p-0 capitalize max-w-[450px] max-md:w-full text-[#02024D]"
+        id="gift-registry"
+      >
+        Gift Registry
+      </h1>
+      <div
+        class="max-w-[500px] p-0 max-md:w-full min-h-700px text-[18px] text-[#02024D] leading-[1.7] font-light"
+      >
+        <p>
+          Your presence is enough of a present to us! But for those of you who
+          are stubborn, we've put together a wish-list to help you out.
+        </p>
+        <button class="p-2 inline-block mt-5 border border-[#02024D]">
+          View Registry
+        </button>
+      </div>
+    </div>
+    <div
+      class="grid grid-cols-1 md:grid-cols-4 md:w-[90%] max-md:w-full min-h-[400px] bg-red-500 w-100%"
+    >
+      <div
+        class="col-span-2 bg-[#ff7c51] min-h-[400px] flex flex justify-center items-center text-white text-4xl"
+      >
+        <p class="p-10 max-w-[500px] font-bold  leading-relaxed">
+          "Even a small community can make a big difference"
+        </p>
+      </div>
+      <div
+        class="md:col-span-2 col-span-1 bg-no-repeat bg-cover bg-center min-h-[400px]"
+        style="
+          background-image: url(assets/img/2.png);
+        "
+      ></div>
+    </div>
+    <div
+      class="max-w-[1000px] w-full min-h-[300px] pt-[100px] px-5 md:grid-cols-2 lg:grid-cols-3 grid-cols-1 grid mx-auto"
+    >
+      <div class="min-h-[300px] text-[#02024D] flex flex-col w-full">
+        <p class="mb-5">Where:</p>
+        <h1 class="text-[40px] max-w-[250px] [line-height:1.5] font-bold">
+          Nob Hill Plaza
+        </h1>
+      </div>
+      <div class="min-h-[300px] text-[#02024D] flex flex-col w-full">
+        <p class="mb-5">When:</p>
+        <h1 class="text-[40px] max-w-[250px] [line-height:1.5] font-bold">
+          July 31,<br />
+          2035 <br />
+          6-9pm
+        </h1>
+      </div>
+      <div class="min-h-[300px] text-[#02024D] flex flex-col w-full">
+        <p class="mb-5">Address:</p>
+        <h1 class="text-[40px] max-w-[250px] [line-height:1.5] font-bold">
+          500 Terry <br />
+          Francine St. <br />
+          SF, CA 94158
+        </h1>
+      </div>
+    </div>
+
+    <div class="bg-[#E8DCDA] w-full px-5 py-20">
+      <h1
+        id="schedule"
+        class="max-w-[1000px] text-4xl text-[#02024D] font-bold mb-20 mx-auto"
+      >
+        Schedule
+      </h1>
+      <div
+        class="max-w-[1000px] py-10 gap-10 grid grid-cols-1 md:grid-cols-3 mx-auto"
+      >
+        <p
+          class="text-4xl font-bold p-0 capitalize col-span-1 max-w-[450px] text-[#ff7c51]"
+        >
+          6PM
+        </p>
+        <p
+          class="max-w-[500px] p-0 min-h-700px text-[18px] col-span-1 md:col-span-2 text-[#02024D] leading-[1.7] font-light"
+        >
+          <span class="text-4xl font-bold p-0 capitalize">Meet & Greet</span
+          ><br />
+          <span class="mt-2"
+            >I'm a paragraph. Click here to add your own text and edit me.</span
+          >
+        </p>
+      </div>
+      <div
+        class="max-w-[1000px] py-10 gap-10 grid grid-cols-1 md:grid-cols-3 mx-auto"
+      >
+        <p
+          class="text-4xl font-bold p-0 col-span-1 capitalize max-w-[450px] text-[#ff7c51]"
+        >
+          7PM
+        </p>
+        <p
+          class="max-w-[500px] p-0 min-h-700px md:col-span-2 col-span-1 text-[18px] text-[#02024D] leading-[1.7] font-light"
+        >
+          <span class="text-4xl font-bold p-0 capitalize"
+            >Live Music by Neela Ascott</span
+          ><br />
+          <span class="mt-2"
+            >I'm a paragraph. Click here to add your own text and edit me.</span
+          >
+        </p>
+      </div>
+      <div
+        class="max-w-[1000px] py-10 gap-10 grid grid-cols-1 md:grid-cols-3 mx-auto"
+      >
+        <p
+          class="text-4xl font-bold p-0 capitalize col-span-1 max-w-[450px] text-[#ff7c51]"
+        >
+          8PM
+        </p>
+        <p
+          class="max-w-[500px] p-0 min-h-700px col-span-1 md:col-span-2 text-[18px] text-[#02024D] leading-[1.7] font-light"
+        >
+          <span class="text-4xl font-bold p-0 capitalize">Speech by Simone</span
+          ><br />
+          <span class="mt-2"
+            >I'm a paragraph. Click here to add your own text and edit me.</span
+          >
+        </p>
+      </div>
+    </div>
+    <div class="grid grid-cols-4 max-md:grid-cols-1 w-full">
+      <div
+        class="col-span-1 text-white min-h-[400px] text-4xl font-bold flex justify-center items-center p-5 max-md:justify-start bg-[#ff7c51]"
+      >
+        Together We <br />
+        Will Build a<br />
+        Better Future
+      </div>
+      <div
+        class="md:col-span-2 col-span-1 min-h-[400px] bg-center bg-cover bg-norepeat"
+        style="
+          background-image: url(assets/img/3.png);
+        "
+      ></div>
+      <div
+        class="col-span-1 min-h-[400px] bg-center bg-cover bg-norepeat"
+        style="
+          background-image: url(assets/img/4.png);
+        "
+      ></div>
+      <div
+        class="col-span-1 min-h-[400px] bg-center bg-cover bg-norepeat"
+        style="
+          background-image: url(assets/img/5.png);
+        "
+      ></div>
+      <div
+        class="md:col-span-2 col-span-1 text-white text-4xl font-bold min-h-[400px] flex justify-center items-center flex-col px-10 bg-[#02024D]"
+      >
+        Ready to Make a difference? <br />
+        RSVP Now for Free
+        <div class="font-light text-[20px] mt-5 bg-[#ff7c51] px-10 py-2">
+          <a href="" class="hover:underline text-light">RSVP</a>
+        </div>
+      </div>
+      <div
+        class="col-span-1 min-h-[400px] bg-center bg-cover bg-norepeat"
+        style="
+          background-image: url(assets/img/6.png);
+        "
+      ></div>
+    </div>
+
+    <h1
+      id="guest-speaker"
+      class="text-[#02024D] pt-20 text-3xl text-center font-bold max-w-[1000px] mx-auto"
+    >
+      Guest Speakers
+    </h1>
+
+    <div
+      class="flex pt-10 pb-20 justify-between px-10 max-sm:flex-col max-sm:justify-center max-sm:gap-10 items-center gap-20px flex-wrap max-w-[1000px] mx-auto"
+    >
+      <div class="flex justify-center items-center flex-col">
+        <div class="w-[150px] h-[150px] overflow-hidden rounded-full">
+          <img
+            src="assets/1729702876977.jpg"
+            class="w-full h-full object-cover object-center"
+            alt=""
+          />
+        </div>
+        <h1 class="text-center pt-2 text-[#02024D] font-bold text-lg">
+          Chisom Nsoku
+        </h1>
+        <p>CEO</p>
+      </div>
+      <div class="flex justify-center items-center flex-col">
+        <div class="w-[150px] h-[150px] overflow-hidden rounded-full">
+          <img
+            src="assets/beth-sherman-business-speaker-blog.webp"
+            class="w-full h-full object-cover object-center"
+            alt=""
+          />
+        </div>
+        <h1 class="text-center pt-2 text-[#02024D] font-bold text-lg">
+          Beth Sherman
+        </h1>
+        <p>Coo</p>
+      </div>
+      <div class="flex justify-center items-center flex-col">
+        <div class="w-[150px] h-[150px] overflow-hidden rounded-full">
+          <img
+            src="assets/beth-sherman-business-speaker-blog.webp"
+            class="w-full h-full object-cover object-center"
+            alt=""
+          />
+        </div>
+        <h1 class="text-center pt-2 text-[#02024D] font-bold text-lg">
+          Beth Sherman
+        </h1>
+        <p>Coo</p>
+      </div>
+    </div>
+    <div class="bg-[#E7DBD9]">
+      <div
+        id="travel"
+        class="max-w-[1000px] flex justify-center mb-20 items-center flex-col px-5 mx-auto"
+      >
+        <h1 class="text-[#02024D] pt-10 text-3xl font-bold text-center mb-10">
+          Travel
+        </h1>
+        <p class="text-center text-xl text-[#02024D]">AIRPORT</p>
+        <a
+          href=""
+          class="uppercase text-[19px] leading-[1.7] mt-5 font-bold text-center underline hover:opacity-[0.5] duration-1000"
+          >Greater Moncton Roméo LeBlanc International <br />
+          Airport 777 Aviation Ave <br />
+          Dieppe, NB E1A 7P5
+        </a>
+        <p class="text-center mt-10 text-xl text-[#02024D]">Rental Cars</p>
+        <a
+          href=""
+          class="uppercase text-[19px] leading-[1.7] mt-3 font-bold text-center underline hover:opacity-[0.5] duration-1000"
+          >Enterprise Rent-A-Car <br />
+          1903 Main St <br />
+          Moncton, NB E1E 4V8
+        </a>
+      </div>
+      <div class="max-w-[1000px] px-5 mx-auto" id="food-menu">
+        <h1 class="text-[#02024D] pt-10 text-3xl font-bold text-center">
+          Food Menu
+        </h1>
+        <div class="grid-cols-1 md:grid-cols-3 sm:grid-cols-2 pt-10 grid gap-5">
+          <div class="w-full">
+            <img
+              class="w-full sm:h-[200px] rounded-md object-cover object-center"
+              src="assets/Spring_Rolls_(3357696061).jpg"
+              alt=""
+            />
+            <h1 class="text-lg font-bold text-[#02024D] mt-2">Spring Rolls</h1>
+          </div>
+          <div class="w-full">
+            <img
+              class="w-full sm:h-[200px] rounded-md object-cover object-center"
+              src="assets/bruschetta-with-mozzarella-14.webp"
+              alt=""
+            />
+            <h1 class="text-lg font-bold text-[#02024D] mt-2">Bruschetta</h1>
+          </div>
+          <div class="w-full">
+            <img
+              class="w-full sm:h-[200px] rounded-md object-cover object-center"
+              src="assets/turkey-meatballs-recipe-3.jpg"
+              alt=""
+            />
+            <h1 class="text-lg font-bold text-[#02024D] mt-2"></h1>
+          </div>
+          <div class="w-full">
+            <img
+              class="w-full sm:h-[200px] rounded-md object-cover object-center"
+              src="assets/wholesomeyum-Baked-Whole-Chicken-Wings-15.jpg"
+              alt=""
+            />
+            <h1 class="text-lg font-bold text-[#02024D] mt-2">Chicken Wings</h1>
+          </div>
+        </div>
+      </div>
+      <div class="max-w-[1000px] px-5 mx-auto" id="accommodation">
+        <h1 class="text-[#02024D] pt-20 text-3xl text-center font-bold">
+          Accommodation
+        </h1>
+        <p class="mt-5 max-w-[700px] mx-auto text-center text-gray-500">
+          For out-of-town guests, we've curated a list of recommended
+          accommodations to ensure a comfortable stay. Please find below some
+          options to suit your preferences and budget
+        </p>
+        <div class="grid-cols-1 md:grid-cols-3 sm:grid-cols-2 pt-10 grid gap-5">
+          <div class="w-full">
+            <img
+              class="w-full sm:h-[200px] rounded-md object-cover object-center"
+              src="assets/roomImg1.png"
+              alt=""
+            />
+            <h1 class="text-lg font-bold text-[#02024D] mt-2">
+              Mövenpick Hotel Ikoyi Lagos
+            </h1>
+          </div>
+          <div class="w-full">
+            <img
+              class="w-full sm:h-[200px] rounded-md object-cover object-center"
+              src="assets/roomImg2.png"
+              alt=""
+            />
+            <h1 class="text-lg font-bold text-[#02024D] mt-2">
+              The Wheatbaker
+            </h1>
+          </div>
+          <div class="w-full">
+            <img
+              class="w-full sm:h-[200px] rounded-md object-cover object-center"
+              src="assets/roomImg3.png"
+              alt=""
+            />
+            <h1 class="text-lg font-bold text-[#02024D] mt-2">
+              Radisson Blu Anchorage Hotel
+            </h1>
+          </div>
+          <div class="w-full">
+            <img
+              class="w-full sm:h-[200px] rounded-md object-cover object-center"
+              src="assets/roomImg4.png"
+              alt=""
+            />
+            <h1 class="text-lg font-bold text-[#02024D] mt-2">
+              Lagos Continental Hotel
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="max-w-[1000px] pt-20 mx-auto">
+        <h1
+          class="text-[#02024D] text-center text-3xl font-bold"
+          id="guestImages"
+        >
+          Guest Images
+        </h1>
+        <p class="text-center">Not Available</p>
+      </div>
+      <div class="max-w-[1000px] pt-20 mx-auto">
+        <h1
+          class="text-[#02024D] text-center text-3xl font-bold"
+          id="eventImages"
+        >
+          Event Images
+        </h1>
+        <p class="text-center">Not Available</p>
+      </div>
+      <div class="max-w-[1000px] pt-20 mx-auto">
+        <h1
+          class="text-[#02024D] text-center text-3xl font-bold"
+          id="eventVideos"
+        >
+          Event Videos
+        </h1>
+        <p class="text-center">Not Available</p>
+      </div>
+      <div class="max-w-[1000px] py-20 mx-auto">
+        <h1
+          class="text-[#02024D] text-center text-3xl font-bold"
+          id="programFile"
+        >
+          Program File
+        </h1>
+        <p class="text-center">Not Available</p>
+      </div>
+    </div>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253682.63647990563!2d3.1191455991624966!3d6.548028244295543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos!5e0!3m2!1sen!2sng!4v1755376142795!5m2!1sen!2sng"
+      height="450"
+      class="w-full"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <footer
+      class="flex flex-col bg-[#E7DBD9] justify-center items-center py-10"
+    >
+      <p class="text-center mb-10 text-lg text-gray-500">
+        &copy; Copyright 2025 by
+        <a
+          href="https://guestsnhost.com/"
+          class="text-orange-500 hover:underline"
+          >GuestsnHost</a
+        >. All Rights Reserved.
+      </p>
+      <a href="https://guestsnhost.com/"
+        ><img
+          src="assets/logo-without-bg.png"
+          class="w-[150px] h-auto cursor-pointer"
+          alt=""
+      /></a>
+    </footer>
+    <div
+      class="fixed click cursor-pointer flex justify-center items-center bg-black/50 w-[120px] h-[50px] rounded-full top-[20px] left-[30px] z-[3]"
+    >
+      <div class="flex flex-col items-center mr-2 justify-center">
+        <div class="w-[30px] bg-black h-[1.5px] mb-1.5"></div>
+        <div class="w-[30px] bg-black h-[1.5px] mb-1.5"></div>
+        <div class="w-[30px] bg-black h-[1.5px]"></div>
+      </div>
+      MENU
+    </div>
+    <div
+      class="fixed nav w-full -translate-x-full duration-1000 h-[100vh] top-0 z-[100] bg-black/50"
+    >
+      <div
+        class="sm:w-[50%] w-full overflow-y-scroll navigate duration-1000 h-[100vh] bg-white"
+      >
+        <div class="py-10 px-10 flex-wrap min-h-[100vh]">
+          <img
+            class="h text-3xl w-full max-w-[200px] my-5"
+            src="assets/logo-without-bg.png"
+          />
+
+          <a
+            href="#welcome"
+            class="mt-5 text-black font-bold underline underline-offset-4 decoration-orange-500 block cancel"
+            >Home</a
+          >
+
+          <a
+            href="#gift-registry"
+            class="mt-5 text-black font-bold underline underline-offset-4 decoration-orange-500 block cancel"
+            >Gift Registry</a
+          >
+
+          <a
+            href="#guest-speaker"
+            class="mt-5 text-black font-bold underline underline-offset-4 decoration-orange-500 block cancel"
+            >Guest Speakers</a
+          >
+
+          <a
+            href="#schedule"
+            class="mt-5 text-black font-bold underline underline-offset-4 decoration-orange-500 block cancel"
+            >Schedule</a
+          >
+          <a
+            href="#travel"
+            class="mt-5 text-black font-bold underline underline-offset-4 decoration-orange-500 block cancel"
+            >Travel</a
+          >
+
+          <a
+            href="#accommodation"
+            class="mt-5 text-black font-bold underline underline-offset-4 decoration-orange-500 block cancel"
+            >Accommodation</a
+          >
+          <a
+            href="#food-menu"
+            class="mt-5 text-black font-bold underline underline-offset-4 decoration-orange-500 block cancel"
+            >Food Menu</a
+          >
+          <a
+            href="#programFile"
+            class="mt-5 text-black font-bold underline underline-offset-4 decoration-orange-500 block cancel"
+            >Program File</a
+          >
+          <a
+            href="#eventVideos"
+            class="mt-5 text-black font-bold underline underline-offset-4 decoration-orange-500 block cancel"
+            >Event Videos</a
+          >
+          <a
+            href="#eventImages"
+            class="mt-5 text-black font-bold underline underline-offset-4 decoration-orange-500 block cancel"
+            >Event Images</a
+          >
+          <a
+            href="#guestImages"
+            class="mt-5 text-black font-bold underline underline-offset-4 decoration-orange-500 block cancel"
+            >Guest Images</a
+          >
+          <a
+            href=""
+            class="block my-10 border border-[#C7D3B2] p-2 text-center rounded-md"
+            ><i class="fa-solid fa-lock"></i> Unlock Guest Details</a
+          >
+        </div>
+        <div
+          class="cancel absolute top-[20px] text-xl cursor-pointer hover:bg-black/50 text-[black] flex justify-center items-center hover:rounded-full duration-1000 h-[30px] w-[30px] right-[20px]"
+        >
+          X
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
